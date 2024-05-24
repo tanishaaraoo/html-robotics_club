@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.parts{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+.team{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+.red{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+.intro{
+    fo;
+}
+
+ .profile {
+    width: 200px; /* Adjust width as needed */
+    height: auto;
+}
+
+ .profile {
+    display: block;
+    margin: 0 auto 20px auto; /* Center the images */
+}
+.robotics-club-image {
+    width: 400px; /* Adjust width as needed */
+    height: auto;
+}
+
+.robotics-club-image {
+    display: block;
+    margin: 0 auto 20px auto; /* Center the images */
+}
+
+.team, .parts, .intro, h1 {
+    margin: 20px 0;
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto 20px auto; /* Center the text block */
+    text-align: left; /* Align the text to the left */
+}
+
+.gyrobot-container,.space-station-container,.mars-rover-container,.robotic-arm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Center the container */
+    width: 80%;; /* Adjust as needed */
+}
+
+.gyrobot,.space-station,.mars-rover,.robotic-arm {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.gyrobot-text,.space-station-text,.mars-rover-text,.robotic-arm-text {
+    flex: 1;
+    text-align: left;
+}
+.gyrobot,.space-station,.mars-rover,.robotic-arm{
+    width: 200px;
+}
